@@ -1,0 +1,43 @@
+# Exclude everything
+/*
+
+# Except for default project files
+!/.github
+!/build-aux
+!/cmake
+!/data
+!/docs
+!/docs/**
+!/src
+!.clang-format
+!.gersemirc
+!.gitignore
+!buildspec.json
+!CMakeLists.txt
+!CMakePresets.json
+!install.bat
+!LICENSE
+!README.md
+!README_RU.md
+!release_plan.md
+!/packaging
+!/packaging/installer.iss
+!/packaging/pack-zip.ps1
+!/packaging/README.txt
+!/packaging/README_RU.txt
+/packaging/Output/
+!/THIRD_PARTY_LICENSES
+!/THIRD_PARTY_LICENSES/**
+
+# Exclude lock files
+*.lock.json
+
+# Exclude macOS legacy resource forks
+.DS_Store
+
+# Exclude IDE settings
+.idea/
+.vscode/
+
+# Exclude CMake build number cache
+/cmake/.CMakeBuildNumber
