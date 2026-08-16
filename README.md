@@ -1,4 +1,4 @@
-# FullBlur Filter (OBS plugin)
+# FullBlur (temp name) Filter (OBS plugin)
 
 An OBS source filter for streamers: delays video and audio, runs frames through
 an NSFW detector (NudeNet via ONNX Runtime + DirectML), and pixelates/blurs the
